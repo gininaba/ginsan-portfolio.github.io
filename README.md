@@ -27,19 +27,19 @@ I'm Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Phil
 
 ### Custom Signages
 
-Description of the project, tools used (e.g., Adobe Photoshop).
+Adobe Photoshop
 
 ![Custom Signages](img/P1.png)
 
 ### Product Advertising Poster
 
-Description of the project, tools used (e.g., Adobe Photoshop).
+Adobe Photoshop
 
 ![Product Advertising Poster](img/P2.png)
 
 ### Custom Photobooth Frame
 
-Description of the project, tools used (e.g., Adobe Photoshop).
+Adobe Photoshop
 
 ![Custom Photobooth Frame](img/P3.png)
 
