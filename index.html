@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Explore the portfolio of Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Philippines. Specialized in graphic design, IT consulting, and Android app development.">
+    <meta name="keywords" content="Ginsan, Portfolio, Graphic Design, IT Expert, Android Expert, Cebu City, Philippines, Technology, Design Excellence, IT Consulting, Android App Development">
+    <meta name="author" content="Ginsan">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Link your new CSS and JavaScript files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+    <!-- Lightbox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloading Screen -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.6);">
+
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <!-- Add the following list item for the Resume link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="docs/resume_inaba.pdf" download>Resume</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Homepage Section -->
+<section id="homepage" class="bg-dark text-white text-center py-5" style="height: 100vh; position: relative;">
+
+    <div class="container h-100 d-flex align-items-center justify-content-center flex-column">
+        <!-- Centered Column for Text -->
+        <div class="col-md-6">
+            <!-- Wrapper for Animated Text -->
+            <div class="mb-4" id="animatedTextWrapper">
+                <h1 class="display-4" style="color: white;">Hi, I'm <span style="color: red;">Ginsan</span></h1>
+                <!-- Animated Text (Graphic Designer & IT Expert / Android Expert) -->
+                <p class="lead" id="role"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2 class="display-4 text-center mb-5">About Me</h2>
+        <div class="row">
+            <!-- Left Column (Text Content) -->
+            <div class="col-md-6">
+                <p class="lead">
+                    I'm a passionate Graphic Designer and IT Expert based in Cebu City, Philippines. Currently, I'm a trainee at Anjo World Theme Park, learning and creating amazing designs. My journey in the world of technology started with a Diploma in Computer Engineering Technology at CITE Technical Institute Inc.
+                </p>
+                <!-- Skills Section -->
+        <p class="lead">
+            <strong>Skills:</strong>
+            <br>
+            <i class="fas fa-paint-brush"></i> Graphic Design
+            <br>
+            <i class="fas fa-laptop-code"></i> IT Expertise
+            <br>
+            <i class="fab fa-android"></i> Android Expert
+        </p>
+    </div>
+
+    <!-- Right Column (Image) -->
+<div class="col-md-6 text-center">
+    <!-- Add your profile picture here and adjust the size -->
+    <img src="https://media.licdn.com/dms/image/D5603AQFrtuXBEwk_ZQ/profile-displayphoto-shrink_800_800/0/1705213218575?e=1710979200&v=beta&t=XPG-1nqmYFfrrEjLE5WZa4rZNY0ouC954dggYqMLszg" alt="Profile Picture of Ginsan, a Graphic Designer and IT Expert" class="img-fluid rounded-circle mb-3 border-white-with-shadow" style="width: 300px; height: 300px;">
+</div>
+    </section>
+
+<!-- Accomplishment Report Section -->
+<section id="accomplishments" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Accomplishment Report</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Accomplishment Card 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Graphic Design Excellence</h5>
+                    <p class="card-text">Designed and implemented captivating graphic elements for various projects at Anjo World Theme Park, contributing to an enhanced visual experience for visitors.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fas fa-paint-brush"></i> Graphic Design</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accomplishment Card 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">IT Expertise Advancement</h5>
+                    <p class="card-text">Successfully completed advanced training modules in IT, furthering my expertise in computer engineering technology and gaining valuable technical skills.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fas fa-laptop-code"></i> IT Expertise</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accomplishment Card 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Android Expert</h5>
+                    <p class="card-text">Skilled in resolving Android software issues, I bring expertise in mobile app problem-solving, contributing to a seamless digital experience.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fab fa-android"></i> Android Development</small>
+                </div>
+            </div>
+        </div>
+        <!-- Add more accomplishment cards as needed -->
+</section>
+<!-- Certificates Section -->
+<section id="certificates" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Certificates</h2>
+    <!-- Certificate Cards -->
+    <div class="row">
+        <!-- Certificate Card 1 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/Certificate_of_Achievement__Assemble_Computer_Hardware-1.png" data-lightbox="certificates" data-title="Certificate of Achievement - Assemble Computer Hardware">
+            <img src="img/Certificate_of_Achievement__Assemble_Computer_Hardware-1.png" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 2 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/GinInaba-CITE-DIET-2E0202-certificate-1.png" data-lightbox="certificates" data-title="GinInaba - CITE DIET 2E0202 Certificate">
+            <img src="img/GinInaba-CITE-DIET-2E0202-certificate-1.png" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 3 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/GinInaba-CITE-DIET3E08152-certificate-1.png" data-lightbox="certificates" data-title="GinInaba - CITE DIET3E08152 Certificate">
+            <img src="img/GinInaba-CITE-DIET3E08152-certificate-1.png" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+</section>
+     <!-- Portfolio Section -->
+<section id="portfolio" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Portfolio</h2>
+    <!-- Project Cards -->
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <div class="card-img-overlay">
+                    <h5 class="card-title text-light">Custom Signages<br>Adobe Photoshop<br></h5>
+                </div>
+                <img src="img/p1.png" class="card-img-top img-fluid" alt="Project Image">
+            </div>
+        </div>
+
+        <!-- Add more cards as needed -->
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <div class="card-img-overlay">
+                    <h5 class="card-title text-light">Product Advertising Poster<br>Adobe Photoshop<br></h5>
+                </div>
+                <img src="img/P2.png" class="card-img-top img-fluid" alt="Project Image">
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <div class="card-img-overlay">
+                    <h5 class="card-title text-light">Custom Photobooth Frame<br>Adobe Photoshop<br></h5>
+                </div>
+                <img src="img/P3.png" class="card-img-top img-fluid" alt="Project Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section (Big Icons Row Layout) -->
+<section id="services" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Services</h2>
+
+    <div class="row text-center">
+        <!-- Service 1 -->
+        <div class="col-md-4 mb-4">
+            <i class="fas fa-paint-brush fa-4x mb-3 text-primary"></i>
+            <h5>Graphic Design</h5>
+            <p>Creative and professional graphic design services tailored to meet your visual communication needs.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-4 mb-4">
+            <i class="fas fa-laptop-code fa-4x mb-3 text-primary"></i>
+            <h5>IT Consulting</h5>
+            <p>Expert IT consulting services to optimize your technological infrastructure and improve efficiency.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-4 mb-4">
+            <i class="fab fa-android fa-4x mb-3 text-primary"></i>
+            <h5>Android Expert</h5>
+            <p>Android Software Mastery: Offering personalized solutions to enhance functionality and address issues, ensuring optimal performance for your devices.</p>
+        </div>
+        <!-- Add more service columns as needed -->
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">Get in Touch</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <p class="lead">Feel free to reach out to me. Whether you have a question or just want to say hello, I'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 mx-auto">
+                    <!-- Update the form tag with the FormSubmit URL in the action attribute -->
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="mb-3">
+
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="hidden" name="access_key" value="a47473ba-d8f8-442a-9296-e39ec63d532e">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message" required></textarea>
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        </div>
+
+                        <button type="submit" class="btn btn-light">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="lead mb-0">Connect with me:</p>
+            <!-- Add social media icons (Font Awesome) with links -->
+            <a href="https://www.facebook.com/ginsan.inaba" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/inaba_gin" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/Oga_tatsumi01" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/gin-inaba" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
