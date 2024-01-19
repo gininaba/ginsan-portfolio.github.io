@@ -21,7 +21,7 @@ I'm Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Phil
 
 - Graphic Design
 - IT Expertise
-- Android Development
+- Android Expert
 
 ## Projects
 
