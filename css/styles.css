@@ -143,3 +143,17 @@ body {
     border: 10px solid #b2beb5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#animatedTextWrapper {
+  opacity: 0;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
