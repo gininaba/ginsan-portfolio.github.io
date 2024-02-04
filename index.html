@@ -54,7 +54,16 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#accomplishments">Accomplishments</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#timeRecord">Time Record</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">Services</a>
@@ -62,17 +71,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="docs/resume_inaba.pdf" download>Resume</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#certificates">Certificates</a>
-                </li>
             </ul>
         </div>
     </div>
 </nav>
-
 
 <!-- Homepage Section -->
 <section id="homepage" class="bg-dark text-white text-center py-5" style="height: 100vh; position: relative;">
@@ -109,6 +111,10 @@
             <br>
             <i class="fab fa-android"></i> Android Expert
         </p>
+    <!-- Resume Download Button -->
+        <a href="docs/gins_resume.pdf" download>
+            <button class="btn btn-primary" style="margin-top: 20px; background-image: linear-gradient(to right, #3498db, #2980b9); border: none;">Download Resume</button>
+        </a>
     </div>
 
     <!-- Right Column (Image) -->
@@ -121,9 +127,10 @@
 <section id="accomplishments" class="container my-5">
     <h2 class="display-4 text-center mb-5">Accomplishment Report</h2>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- Accomplishment Report Content (Individual Cards in a Row) -->
+    <div class="row">
         <!-- Accomplishment Card 1 -->
-        <div class="col">
+        <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Graphic Design Excellence</h5>
@@ -136,7 +143,7 @@
         </div>
 
         <!-- Accomplishment Card 2 -->
-        <div class="col">
+        <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">IT Expertise Advancement</h5>
@@ -149,7 +156,7 @@
         </div>
 
         <!-- Accomplishment Card 3 -->
-        <div class="col">
+        <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Android Expert</h5>
@@ -160,8 +167,17 @@
                 </div>
             </div>
         </div>
-
+    </div>
+        <!-- Download Button for Overall Report -->
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 text-center">
+            <a href="docs/accomplishment_report.pdf" download>
+                <button class="btn btn-primary" style="margin-top: 20px;">Download Overall Accomplishment Report</button>
+            </a>
+        </div>
+    </div>
 </section>
+
 <!-- Certificates Section -->
 <section id="certificates" class="container my-5">
     <h2 class="display-4 text-center mb-5">Certificates</h2>
@@ -170,8 +186,8 @@
         <!-- Certificate Card 1 -->
 <div class="col-md-4 mb-4">
     <div class="card shadow">
-        <a href="img/Certificate_of_Achievement__Assemble_Computer_Hardware-1.png" data-lightbox="certificates" data-title="Certificate of Achievement - Assemble Computer Hardware">
-            <img src="img/Certificate_of_Achievement__Assemble_Computer_Hardware-1.png" class="card-img-top img-fluid" alt="Certificate Image">
+        <a href="img/GinInaba-CITE-DIET-2E0202-letter.jpg" data-lightbox="certificates" data-title="Cisco Certificate">
+            <img src="img/GinInaba-CITE-DIET-2E0202-letter.jpg" class="card-img-top img-fluid" alt="Certificate Image">
         </a>
     </div>
 </div>
@@ -228,6 +244,17 @@
     </div>
 </section>
 
+<!-- Daily Time Record Section -->
+<section id="timeRecord" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Daily Attendance Summary</h2>
+
+    <!-- Right Column (Embed Google Sheets) -->
+    <div class="col-md-12 text-center">
+        <p class="lead mb-4">Check out my daily attendance summary as a trainee at Anjo World Theme Park and a student in CITE Technical Institute Inc.</p>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmAEF6nW1kS_S5T5BIDUK4fTpOlalVhK25_4Zlt0vZBhqCCefSBkoTrRZiy4zCgcw-wueSb9Hx7leP/pubhtml?gid=243503025&single=true" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+
 <!-- Services Section (Big Icons Row Layout) -->
 <section id="services" class="container my-5">
     <h2 class="display-4 text-center mb-5">Services</h2>
@@ -256,6 +283,52 @@
     </div>
 </section>
 
+<!-- Testimonials Section -->
+<section id="testimonials" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Testimonials</h2>
+
+    <!-- Testimonial Carousel -->
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Testimonial Slide 1 -->
+            <div class="carousel-item active">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">"Ginsan's creative designs brought our projects to life! His attention to detail and innovative ideas truly set him apart."</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">- Happy Client</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Slide 2 -->
+            <div class="carousel-item">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">"Working with Ginsan was a breeze. His IT expertise and problem-solving skills saved us time and headaches. Highly recommended!"</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">- Satisfied Customer</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more testimonial slides as needed -->
+
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
     <!-- Contact Section -->
     <section id="contact" class="bg-dark text-white py-5">
         <div class="container text-center">
@@ -274,12 +347,12 @@
 
                             <label for="name" class="form-label">Your Name</label>
                             <input type="hidden" name="access_key" value="a47473ba-d8f8-442a-9296-e39ec63d532e">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="email" class="form-label">Your Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                         </div>
 
                         <div class="mb-3">
