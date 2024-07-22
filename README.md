@@ -15,7 +15,7 @@ Welcome to my portfolio project! This repository showcases my skills, projects, 
 
 ## About Me
 
-I'm Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Philippines. Currently, I'm a trainee at Anjo World Theme Park, learning and creating amazing designs.
+I'm Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Philippines. Currently, I'm an employee in Anjo World Theme Park, learning and creating amazing designs.
 
 ## Skills
 
